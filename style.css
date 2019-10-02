@@ -1,0 +1,49 @@
+body{
+	background-color: wheat
+}
+
+span {
+	display: none;
+}
+
+h2 {
+	display: none
+}
+
+h3 {
+	display: none;
+	background-color: aqua;
+	margin: 10px;
+	padding: 10px;
+	width: 400px;
+	font-size: 60px;
+	color: darkred
+}
+
+.main {
+	margin: 200px auto 0;
+	padding: 20px;
+	background-color: turquoise;
+	text-align: center;
+	width: 400px;
+	font-size: 25px		
+}
+
+.secondery {
+	margin: 0px auto;
+	padding:  10px;
+	background-color: aquamarine;
+	text-align: center;
+	width: 350px;
+	font-size: 22px;
+	display: none
+}
+
+.animate {
+	margin: 10px;
+	padding: 10px;
+	background-color: cornflowerblue;
+	width: 220px;
+	font-size: 50px
+	
+}

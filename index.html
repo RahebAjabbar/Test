@@ -1,0 +1,145 @@
+<!DOCETYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<title>
+    It,s My Website
+    </title>
+    <link href="Style.css" rel="stylesheet" type="text/css">
+	<!-- javascript
+	<script>
+	function leftClick() {
+		document.getElementById("check your left click").innerHTML = "Your Click Is O.k";
+	}
+	
+		function dblLeftClick() {
+		document.getElementById("check your doubleleft click").innerHTML = "Your  Double Click Is O.k";
+	}
+	</script>
+-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+	
+<body>
+	<!-- java script
+        <h1 id="first"> </h1>
+     	<p   id="final number"> </p>
+	    <h3 id="boolean"> </h3>
+	    <h1 id="array"> </h1>
+	    <div id="object"> </div>
+	    <h3 id="string"> </h3>
+		<h1 id="number"> </h1>
+	    <h1 id= "hey"> </h1>
+	    <div id="condition"> </div>
+	
+	
+	<h1 id="check your left click"> Click Me Now </h1>
+	<h1 id="check your doubleleft click"> Double Click Me Now </h1>
+	
+	<button onclick="leftClick()"> Change Me By 1 Click </button>
+	<button ondblclick="dblLeftClick()"> Change Me By 2 Click </button>
+	-->
+	
+	
+	<!-- jquery click, mouseenter, mouseleave
+	<script>
+	
+		$(document).ready(function(){
+
+		$("button").click(function(){
+			$("P").css("color","blue");
+		})
+		$("button").mouseenter(function(){
+			$(this).css("color","red")
+		})
+		$("button").mouseleave(function(){
+			$(this).css("color","black")
+		})
+	});
+	
+</script>
+	-->
+	<!-- jquery hover
+	<script>
+	$(document).ready(function(){
+		$("button").hover
+		(
+		function(){
+			$(this).css("color","red");
+			$("p").css("color","purple");
+		    }
+			,
+		function(){
+			$(this).css("color","black");
+			$("p").css("color","black");
+	    	}
+		);
+	});
+	</script>
+-->
+		<!--
+
+	<h1> Hi, I'm Raheb.. I'll Show You Some Of My Adorable Skills</h1>
+	<p style="font-size: 50px">  Firstly, Click This </p>
+	<button style="width: 100px; font-size: 20px"> click </button>
+	  <span style="font-size: 35px; color: deepskyblue"> Hello, I'm Gonna Reprogramming  The Shitty JavaScript</span>
+	
+	<h2> You Think I,m Joking ! Watch This</h2>
+	<h3> Hello Again -_- </h3>
+
+	
+
+	<script> // hide, show, fade, toggle //
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("p").hide(700, function(){$("span").show(750, function(){$("h2").toggle(5000,function(){$("h3").fadeIn(7500,)})})})
+		})
+	});
+	
+	</script>
+	
+	-->
+	
+	<!-- 
+
+	
+	<div class="main"> Click Here To Show Secondery Menu</div>
+	<div class="secondery"> I'm The Secondery One</div>
+	
+	<script> // slidedown, slideup, slidetoggle //
+	$(document).ready(function(){
+		$(".main").hover(
+		function(){
+			$(".main").css("color","blue")
+		}
+		,
+		function(){
+			$(".main").css("color","black")
+		}
+		)
+	});
+		
+		$(document).ready(function(){
+			$(".main").click(function(){
+				$(".secondery").slideDown(600)
+			})
+		});
+	</script>
+-->
+	
+	<div class="animate"> I'm Gonna Shaw You Some Of Games</div>
+	<script> 
+	$(document).ready(function(){
+		$(".animate").animate({
+			width:'400px',
+			height:'300px',
+			borderRadius:'20px'
+		});
+	});
+	
+	</script>
+<script src="script.js"> </script>
+</body>
+
+</html> 																			
